@@ -1,13 +1,8 @@
 import React from "react";
-import { CounterBox } from "./counter-box"
+import { CounterBox } from "../counter-box"
+import "./style.css"
 
 export function CountDownDisplay(props) {
-    const childStyle = {
-        flex: "1 0 21 %",
-        margin: "0 25px",
-        height: "100px",
-        backgroundCcolor: "blue"
-    }
 
     const { days, hours, minutes, seconds } = props
 
@@ -41,10 +36,10 @@ export function CountDownDisplay(props) {
     return (
         <React.Fragment>
             <div style={{ display: "flex", "flex-wrap": "wrap" }}>
-                <div style={childStyle}>{daysElement}</div>
-                <div style={childStyle}>{hoursElement}</div>
-                <div style={childStyle}>{minutesElement}</div>
-                <div style={childStyle}>{secondsElement}</div>
+                <div className="counter-box">{daysElement}</div>
+                <div className="counter-box">{hoursElement}</div>
+                <div className="counter-box">{minutesElement}</div>
+                <div className="counter-box">{secondsElement}</div>
             </div>
         </React.Fragment>
     )
