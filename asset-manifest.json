@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/christmas-countdown/static/css/main.10503421.css",
+    "main.css": "/christmas-countdown/static/css/main.5fb521b7.css",
     "main.js": "/christmas-countdown/static/js/main.9679a6c7.js",
     "static/js/787.f2b96a9b.chunk.js": "/christmas-countdown/static/js/787.f2b96a9b.chunk.js",
     "static/media/background.svg": "/christmas-countdown/static/media/background.f8f205176dd6f7ef8e11.svg",
     "index.html": "/christmas-countdown/index.html",
-    "main.10503421.css.map": "/christmas-countdown/static/css/main.10503421.css.map",
+    "main.5fb521b7.css.map": "/christmas-countdown/static/css/main.5fb521b7.css.map",
     "main.9679a6c7.js.map": "/christmas-countdown/static/js/main.9679a6c7.js.map",
     "787.f2b96a9b.chunk.js.map": "/christmas-countdown/static/js/787.f2b96a9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10503421.css",
+    "static/css/main.5fb521b7.css",
     "static/js/main.9679a6c7.js"
   ]
 }
