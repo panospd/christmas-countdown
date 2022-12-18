@@ -1,10 +1,18 @@
 .counter-box {
-    flex: 1 0 42%;
+    flex: 1 0 42%; /* explanation below */
     margin: 0 5px;
 }
 
 @media only screen and (min-width : 336px) {
     .counter-box {
-        flex: 1 0 21%;
+        flex: 1 0 auto;
+        margin: 0 10px;
+    }
+}
+
+@media only screen and (min-width : 600px) {
+    .counter-box {
+        flex: 1 0 auto;
+        margin: 0 25px;
     }
 }
